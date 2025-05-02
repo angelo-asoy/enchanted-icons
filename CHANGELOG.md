@@ -3,6 +3,8 @@
 ## Unreleased
 
 ### Added
+- Added 2 new custom icons:
+  Sort--descending--alt, Sort-ascending--alt
 
 ### Fixed
 
