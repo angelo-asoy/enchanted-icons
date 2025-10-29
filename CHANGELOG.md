@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Added
-- Added a new custom icons:
+- Added a new custom icon:
   ai--sparkle
 
 ### Fixed
