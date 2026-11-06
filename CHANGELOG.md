@@ -12,6 +12,72 @@
 
 #### Breaking changes
 
+## 2.0.0
+
+#### Breaking changes
+- Updated MUI to version v7 (https://mui.com/material-ui/migration/upgrade-to-v7/)
+- Updated React to version 19 and also some other dependencies related to React
+- Updated React DOM to version 19
+
+## 1.10.0
+
+### Added
+- Added new custom icons:
+  mail--delegation
+  set--tasks
+
+## 1.9.1
+
+### Changed
+- Adjusting the web component icon generation logic for carbon and custom icons. The `SVG` tag is now pre-generated and directly part for the Icon web component.
+
+## 1.9.0
+
+### Added
+- Adding a scoping logic for all `@hcl-software/enchanted-icons-web-component` icons. Via the `VITE_COMPONENT_PREFIX` environment parameter the prefix will be applied.
+- Adding `debug` as logging framework to the `@hcl-software/enchanted-icons-web-component` package.
+
+## 1.8.0
+
+### Added
+- Added new custom icons:
+  context-preview
+  context-preview--view
+
+### Changed
+- Updated copyright license header years to be dynamic for both creation and modified years.
+
+## 1.7.2
+
+### Fixed
+- Fixed again the items--search--initial SVG
+
+## 1.7.1
+
+### Fixed
+- Fixed the README.md files so they render properly on npmjs.com.
+- Fixed items--search--initial SVG
+
+## 1.7.0
+
+### Added
+- Added a new custom icon:
+  items--search--initial
+
+### Changed
+- The repository has been converted to a monorepo structure to support multiple packages.
+- Introduced a new package, @hcl-software/enchanted-icons-web-component, to provide icons as standard Web Components. The original React package is still @hcl-software/enchanted-icons.
+- Created a new unified build script (packages/icons-builder/generate.js) that generates both React and Web Component packages from a single source.
+- Added raw .svg files located in packages/icons-builder/svg used for generating custom icons.
+- All Carbon icon exclusions and renames are now managed in a single packages/icons-builder/config.json file.
+- Introduced lerna for managing the monorepo structure.
+
+## 1.6.0
+
+### Added
+- Added a new custom icon:
+  ai--sparkle
+
 ## 1.5.0
 
 ### Added

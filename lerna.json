@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "1.8.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "gitTag": false,
+      "push": false
+    }
+  }
+}
